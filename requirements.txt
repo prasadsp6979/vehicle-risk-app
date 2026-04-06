@@ -1,4 +1,5 @@
-tensorflow==2.16.1
+keras
+tf-keras
 streamlit-folium
 folium
 matplotlib
