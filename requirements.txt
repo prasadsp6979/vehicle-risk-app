@@ -1,0 +1,10 @@
+numpy
+pandas
+joblib
+tensorflow
+scikit-learn
+imbalanced-learn
+folium
+streamlit-folium
+matplotlib
+seaborn
