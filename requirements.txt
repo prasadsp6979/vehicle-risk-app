@@ -1,7 +1,10 @@
-tensorflow-cpu
+tensorflow==2.15.0
 streamlit-folium
 folium
 matplotlib
 seaborn
 joblib
 imbalanced-learn
+scikit-learn
+numpy
+pandas
