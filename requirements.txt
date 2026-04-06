@@ -1,12 +1,10 @@
-keras
-jax
-jaxlib
+tf-keras
 streamlit-folium
 folium
 matplotlib
 seaborn
 joblib
+imbalanced-learn
 scikit-learn
 numpy
 pandas
-imbalanced-learn
