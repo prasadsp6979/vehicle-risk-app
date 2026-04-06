@@ -6,8 +6,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 from streamlit_folium import folium_static
-import tensorflow as tf
-from tensorflow.keras.models import load_model
+from tf_keras.models import load_model
 import traceback
 
 # Page Configuration
@@ -15,7 +14,7 @@ st.set_page_config(page_title="🚗 Digital Twin Risk Predictor", layout="wide")
 
 # Load Model & Preprocessors (FIXED FILENAMES)
 try:
-    model = load_model("new_users_risk_model_no_interaction.keras")
+   model = load_model("model.h5")
     scaler = joblib.load("scaler_no_interaction.pkl")
     le_risk = joblib.load("le_risk_no_interaction.pkl")
 except FileNotFoundError as e:
