@@ -14,7 +14,7 @@ st.set_page_config(page_title="🚗 Digital Twin Risk Predictor", layout="wide")
 
 # Load Model & Preprocessors (FIXED FILENAMES)
 try:
-   model = load_model("model.h5")
+    model = load_model("model.h5")
     scaler = joblib.load("scaler_no_interaction.pkl")
     le_risk = joblib.load("le_risk_no_interaction.pkl")
 except FileNotFoundError as e:
